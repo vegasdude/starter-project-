@@ -1,0 +1,15 @@
+super-project-template/
+ ├── src/
+ │    ├── main.py            (Python starter)
+ │    ├── index.js           (Node starter)
+ │    ├── ai_starter.py      (AI assistant starter)
+ │    ├── robotics.py        (Robotics starter)
+ │    ├── app.py             (Flask starter)
+ │
+ ├── docs/
+ ├── tests/
+ ├── templates/
+ │    └── index.html         (Flask HTML)
+ │
+ └── .github/workflows/
+      └── main.yml           (GitHub Actions starter)
