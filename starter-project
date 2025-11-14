@@ -1,0 +1,12 @@
+starter-project/
+│
+├─ src/
+│   └─ ai_starter.py
+│
+├─ .github/
+│   └─ workflows/
+│       └─ main.yml
+│
+├─ .gitignore
+├─ README.md
+└─ requirements.txt (optional: openai, python-dotenv)
