@@ -1,0 +1,68 @@
+# 📦 all-repos
+
+A shared, reusable index and workflow file for use across **all repositories**.
+
+This document is intended to live in a central repo (such as `starter-project-`) and act as a **single source of truth** for organization, progress tracking, and conventions.
+
+---
+
+## 🎯 Purpose
+
+- Provide a consistent structure across repositories
+- Track work at a high level (not per-repo details)
+- Document conventions, philosophy, and workflow
+- Avoid duplication in individual READMEs
+
+This file intentionally **does not list specific repositories**.
+
+---
+
+## 🧭 Scope
+
+Applies to:
+- Starter / template projects
+- Experiments and prototypes
+- Documentation-only repos
+- Long-running and short-lived work
+
+Does **not** override:
+- Repo-specific README files
+- Repo-specific LICENSE files
+
+---
+
+## 📌 Global Project Status (Sample)
+
+### ✅ Done
+- [x] Workspace initialized
+- [x] Baseline documentation created
+- [x] Licensing approach defined (MIT by default)
+
+### 🚧 In Progress
+- [ ] Refining repository structure
+- [ ] Improving documentation consistency
+- [ ] Reviewing naming conventions
+
+### 📝 To Do
+- [ ] Add or refine starter templates
+- [ ] Optional contribution guidelines
+- [ ] Automation or tooling evaluation
+- [ ] Long-term repo separation decisions
+
+---
+
+## 🗂 Repository Conventions
+
+### Naming
+- Lowercase
+- Hyphen-separated words (`example-repo`)
+- Avoid version numbers in repo names
+
+### Recommended Structure
+
+```text
+/
+├─ src/        # Source code or experiments
+├─ docs/       # Documentation and notes
+├─ README.md   # Repo-specific overview
+├─ LICENSE     # MIT unless stated otherwise
